@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chiubaka/whiteboard/issues"
   },
-  "homepage": "https://github.com/chiubaka/whiteboard"
+  "homepage": "https://github.com/chiubaka/whiteboard",
+  "dependencies": {
+    "ws": "^0.7.1"
+  }
 }
