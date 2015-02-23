@@ -1,0 +1,19 @@
+{
+  "name": "whiteboard",
+  "version": "0.0.0",
+  "description": "Interactive whiteboard web-app built for Nurep interview coding exercise.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiubaka/whiteboard.git"
+  },
+  "author": "Daniel Chiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiubaka/whiteboard/issues"
+  },
+  "homepage": "https://github.com/chiubaka/whiteboard"
+}
