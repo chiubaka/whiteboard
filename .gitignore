@@ -26,3 +26,9 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# IntelliJ project files
+.idea/
+
+# Vim temporary files
+*.swp
