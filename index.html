@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Interactive Whiteboard</title>
+</head>
+<body>
+  <script>
+    var connection = new WebSocket("ws://localhost:8080");
+    connection.onopen = function() {
+      connection.send(JSON.stringify({x: 0, y: 0}));
+    };
+
+    connection.onmessage = function(message) {
+      var coordinates = JSON.parse(message.data);
+      console.log(coordinates);
+    };
+  </script>
+</body>
+</html>
